@@ -1,0 +1,11 @@
+[gui]
+	recentrepo = C:/Users/nandj/Documents/Test git
+	recentrepo = C:/Users/nandj
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = nandji3
+	email = 115684770+nandji3@users.noreply.github.com
