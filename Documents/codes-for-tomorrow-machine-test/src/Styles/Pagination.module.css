@@ -1,0 +1,54 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.navBtn,
+.pageBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    /* Increased width for rectangular shape */
+    height: 2.5rem;
+    /* Adjusted height for rectangular shape */
+    border: none;
+    border-radius: 0.25rem;
+    /* Small radius for slightly rounded corners */
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navBtn:hover,
+.pageBtn:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+    /* Slightly reduced scale for hover effect */
+}
+
+.pageBtn.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.navBtn.disabled,
+.navBtn.disabled:hover {
+    background-color: #e0e0e0;
+    color: #aaa;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.ellipsis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 2.5rem;
+}

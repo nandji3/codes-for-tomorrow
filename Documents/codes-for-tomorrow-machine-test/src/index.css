@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: #bae6fd;
+  color: var(--font-color);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --bg-color: #fff;
+  --font-color: #000;
+  --shadow-1: 0px 3px 20px hsla(180, 90%, 43%, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+li,
+a,
+span,
+label,
+pre {
+  font-family: "Urbanist", sans-serif;
+}
